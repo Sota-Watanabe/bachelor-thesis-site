@@ -1,5 +1,5 @@
 <template>
-  <footer>this is Footer</footer>
+  <footer>Copyright©2020. Sota Watanabe.</footer>
 </template>
 
 <script>
@@ -11,3 +11,9 @@ export default {
   }),
 };
 </script>
+
+<style scoped>
+footer {
+  text-align: center;
+}
+</style>
