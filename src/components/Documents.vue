@@ -10,21 +10,21 @@
       </v-tabs>
     </v-toolbar>
     <v-tabs-items v-model="tabs">
-      <v-tab-item value="tab-1">
+      <v-tab-item value="tab-1" style="height: 100vh">
         <iframe
           width="85%"
-          height="500"
+          height="100%"
           src="https://thesis-documents.s3-ap-northeast-1.amazonaws.com/ieice-synopsis.pdf"
         ></iframe>
       </v-tab-item>
-      <v-tab-item value="tab-2">
+      <v-tab-item value="tab-2" style="height: 100vh">
         <iframe
           width="85%"
-          height="500"
+          height="100%"
           src="https://thesis-documents.s3-ap-northeast-1.amazonaws.com/synopsis.pdf"
         ></iframe>
       </v-tab-item>
-      <v-tab-item value="tab-3">
+      <v-tab-item value="tab-3" style="height: 100vh">
         <iframe
           src="https://onedrive.live.com/embed?resid=EF9A5F5BC26C037%2121277&amp;authkey=%21AFMwpXu8ZSYzNzg&amp;em=2&amp;wdAr=1.3333333333333333"
           width="100%"
