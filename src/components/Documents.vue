@@ -10,7 +10,7 @@
       </v-tabs>
     </v-toolbar>
     <v-tabs-items v-model="tabs">
-      <v-tab-item value="tab-4">
+      <v-tab-item value="tab-1">
         <iframe
           width="85%"
           height="500"
@@ -39,7 +39,7 @@
           の埋め込み型のプレゼンテーションです。</iframe
         >
       </v-tab-item>
-      <v-tab-item value="tab-1" style="height: 100vh">
+      <v-tab-item value="tab-4" style="height: 100vh">
         <iframe
           width="80%"
           height="100%"
