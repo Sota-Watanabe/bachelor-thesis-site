@@ -1,6 +1,7 @@
 <template>
   <div style="text-align: center; margin: 100px 0">
-    <v-toolbar flat prominent>
+    <!-- mx-autoが使えない...? -->
+    <v-toolbar flat prominent max-width="1000" style="margin: 0 auto">
       <v-tabs v-model="tabs" center-active center fixed-tabs show-arrows>
         <v-tab href="#tab-1">総合大会用の梗概(1ページ)</v-tab>
         <v-tab href="#tab-2">最終発表用の梗概(2ページ)</v-tab>
