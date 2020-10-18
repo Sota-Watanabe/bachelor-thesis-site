@@ -1,5 +1,5 @@
 <template>
-  <h1>サーバレス実行方式のメモリ消費を考慮したレイテンシ削減</h1>
+  <h1><nobr>サーバレス<wbr>実行方式の<wbr>メモリ消費を<wbr>考慮した<wbr>レイテンシ削減</nobr></h1>
 </template>
 
 <script>
@@ -11,3 +11,12 @@ export default {
   }),
 };
 </script>
+
+<style scoped>
+h1 {
+  text-align: center;
+  margin: 20px 0 40px;
+  font-size: 32px
+}
+</style>
+
