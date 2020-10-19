@@ -2,10 +2,10 @@
   <div class="text-center">
     <v-toolbar flat prominent max-width="1000" class="mx-auto">
       <v-tabs v-model="tabs" center-active center fixed-tabs show-arrows>
-        <v-tab href="#tab-1">総合大会用の梗概(1ページ)</v-tab>
-        <v-tab href="#tab-2">最終発表用の梗概(2ページ)</v-tab>
-        <v-tab href="#tab-3">最終発表の資料</v-tab>
+        <!-- <v-tab href="#tab-1">総合大会用の梗概(1ページ)</v-tab> -->
+        <v-tab href="#tab-2">最終発表の梗概</v-tab>
         <v-tab href="#tab-4">卒業論文</v-tab>
+        <v-tab href="#tab-3">最終発表の資料</v-tab>
       </v-tabs>
     </v-toolbar>
     <v-tabs-items v-model="tabs">
