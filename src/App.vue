@@ -1,11 +1,11 @@
 <template>
-  <div>
+  <v-app>
     <Header />
     <KeyVisual />
     <Overview />
     <Documents />
     <Footer />
-  </div>
+  </v-app>
 </template>
 
 <script>
