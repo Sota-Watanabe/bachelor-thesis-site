@@ -1,6 +1,6 @@
 <template>
   <section>
-    <v-card max-width="800" class="mx-auto">
+    <v-card width="80%" max-width="800" class="mx-auto">
       <div v-for="content in contents" :key="content.title">
         <v-card-title class="headline">
           {{ content.title }}
