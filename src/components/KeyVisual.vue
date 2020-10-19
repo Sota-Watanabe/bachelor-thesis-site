@@ -1,14 +1,11 @@
 <template>
-  <v-toolbar height="100">
-    <v-spacer />
-    <!-- class="text-center"が使えない...なぜ -->
-    <v-toolbar-title style="text-align: center">
+  <v-card>
+    <h1 style="text-align: center">
       <nobr
         >サーバレス<wbr />実行方式の<wbr />メモリ消費を<wbr />考慮した<wbr />レイテンシ削減</nobr
       >
-    </v-toolbar-title>
-    <v-spacer />
-  </v-toolbar>
+    </h1>
+  </v-card>
 </template>
 
 <script>
