@@ -1,5 +1,5 @@
 <template>
-  <div class="text-center">
+  <div class="text-center my-12">
     <v-toolbar prominent>
       <v-tabs v-model="tab" center-active center fixed-tabs show-arrows>
         <v-tabs-slider></v-tabs-slider>
@@ -10,7 +10,7 @@
     </v-toolbar>
     <v-tabs-items v-model="tab">
       <v-tab-item v-for="element in elements" :key="element">
-        <v-card height="100vh" class="pt-8" prominent>
+        <v-card height="100vh" class="py-16" prominent>
           <iframe width="85%" height="100%" frameborder="0" v-bind:src="element" />
         </v-card>
       </v-tab-item>
